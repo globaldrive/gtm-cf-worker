@@ -1,0 +1,13 @@
+name = "gtm"
+main = "src/index.ts"
+compatibility_date = "2023-08-07"
+usage_model = "bundled"
+env = { }
+
+[route]
+pattern = "gtm.globaldrive.ru"
+zone_name = ""
+script = "gtm"
+
+[triggers]
+crons = [ ]
